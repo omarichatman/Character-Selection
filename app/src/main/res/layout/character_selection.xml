@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/character_warrior"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="80dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/warriorLabel"
+        android:textSize="40sp"
+        android:layout_marginRight="80dp"
+        android:layout_marginLeft="16dp" />
+
+    <TextView
+        android:id="@+id/character_mage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/character_warrior"
+        android:layout_alignStart="@+id/character_warrior"
+        android:layout_below="@+id/character_warrior"
+        android:layout_marginTop="35dp"
+        android:text="@string/mageLabel"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/chracter_healer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/character_mage"
+        android:layout_alignStart="@+id/character_mage"
+        android:layout_below="@+id/character_mage"
+        android:layout_marginTop="35dp"
+        android:text="@string/healerLabel"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/character_hunter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/chracter_healer"
+        android:layout_alignStart="@+id/chracter_healer"
+        android:layout_below="@+id/chracter_healer"
+        android:layout_marginTop="35dp"
+        android:text="@string/hunterLabel"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/character_paladin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/character_hunter"
+        android:layout_alignStart="@+id/character_hunter"
+        android:layout_below="@+id/character_hunter"
+        android:layout_marginTop="35dp"
+        android:text="@string/paladinLabel"
+        android:textSize="40sp" />
+
+    <RadioGroup
+        android:id="@+id/myRadioGroup"
+        android:layout_width="120dp"
+        android:layout_height="430dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="200dp">
+
+        <RadioButton
+            android:id="@+id/warriorBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:id="@+id/mageBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:id="@+id/healerBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:id="@+id/hunterBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:id="@+id/paladinBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    </RadioGroup>
+
+</RelativeLayout>

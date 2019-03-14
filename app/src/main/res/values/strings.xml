@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">cis436proj2</string>
+
+    <string name="warriorLabel">Warrior</string>
+    <string name="mageLabel">Mage</string>
+    <string name="healerLabel">Healer</string>
+    <string name="hunterLabel">Hunter</string>
+    <string name="paladinLabel">Paladin</string>
+
+    <string name="warrior_classText">Warrior Class</string>
+    <string name="mage_classText">Mage Class</string>
+    <string name="healer_classText">Healer Class</string>
+    <string name="hunter_classText">Hunter Class</string>
+    <string name="paladin_classText">Paladin Class</string>
+
+    <string name="warrior_strengthText">Strength</string>
+    <string name="warrior_intellectText">Intellect</string>
+    <string name="warrior_wisdomText">Wisdom</string>
+    <string name="warrior_DexterityText">Dexterity</string>
+    <string name="warrior_pointsText">Points left to spend:</string>
+    <string name="warrior_pointsNumber">10</string>
+
+    <string name="mage_strengthText">Strength</string>
+    <string name="mage_intellectText">Intellect</string>
+    <string name="mage_wisdomText">Wisdom</string>
+    <string name="mage_DexterityText">Dexterity</string>
+    <string name="mage_pointsText">Points left to spend</string>
+    <string name="mage_pointsNumber">10</string>
+
+    <string name="healer_strengthText">Strength</string>
+    <string name="healer_intellectText">Intellect</string>
+    <string name="healer_wisdomText">Healer</string>
+    <string name="healer_DexterityText">Dexterity</string>
+    <string name="healer_pointsText">Points left to spend:</string>
+    <string name="healer_pointsNumber">10</string>
+
+    <string name="hunter_strengthText">Strength</string>
+    <string name="hunter_intellectText">Intellect</string>
+    <string name="hunter_wisdomText">Wisdom</string>
+    <string name="hunter_DexterityText">Hunter</string>
+    <string name="hunter_pointsText">Points left to spend:</string>
+    <string name="hunter_pointsNumber">10</string>
+
+    <string name="paladin_strengthText">Strength</string>
+    <string name="paladin_intellectText">Intellect</string>
+    <string name="paladin_wisdomText">Wisdom</string>
+    <string name="paladin_DexterityText">Dexterity</string>
+    <string name="paladin_pointsText">Points left to spend:</string>
+    <string name="paladin_pointsNumber">10</string>
+
+</resources>

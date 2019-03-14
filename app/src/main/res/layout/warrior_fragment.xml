@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/warrior_classLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:text="@string/warrior_classText" />
+
+    <TextView
+        android:id="@+id/warrior_strengthLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/warrior_strengthBar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:text="@string/warrior_strengthText" />
+
+    <TextView
+        android:id="@+id/warrior_intellectLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/warrior_intellectBar"
+        android:layout_alignLeft="@+id/warrior_wisdomLabel"
+        android:layout_alignStart="@+id/warrior_wisdomLabel"
+        android:layout_marginBottom="17dp"
+        android:text="@string/warrior_intellectText" />
+
+    <TextView
+        android:id="@+id/warrior_wisdomLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/warrior_strengthLabel"
+        android:layout_alignRight="@+id/warrior_strengthLabel"
+        android:layout_centerVertical="true"
+        android:text="@string/warrior_wisdomText" />
+
+    <TextView
+        android:id="@+id/warrior_dexterityLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/warrior_dexterityBar"
+        android:layout_alignLeft="@+id/warrior_wisdomLabel"
+        android:layout_alignStart="@+id/warrior_wisdomLabel"
+        android:layout_marginBottom="16dp"
+        android:text="@string/warrior_DexterityText" />
+
+    <RatingBar
+        android:id="@+id/warrior_strengthBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/warrior_classLabel"
+        android:layout_marginEnd="29dp"
+        android:layout_marginRight="29dp"
+        android:layout_marginTop="22dp" />
+
+    <RatingBar
+        android:id="@+id/warrior_intellectBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/warrior_strengthBar"
+        android:layout_alignStart="@+id/warrior_strengthBar"
+        android:layout_below="@+id/warrior_strengthBar"
+        android:layout_marginTop="28dp" />
+
+    <RatingBar
+        android:id="@+id/warrior_wisdomBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/warrior_intellectBar"
+        android:layout_alignStart="@+id/warrior_intellectBar"
+        android:layout_centerVertical="true" />
+
+    <RatingBar
+        android:id="@+id/warrior_dexterityBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/warrior_wisdomBar"
+        android:layout_alignStart="@+id/warrior_wisdomBar"
+        android:layout_below="@+id/warrior_wisdomBar"
+        android:layout_marginTop="25dp" />
+
+    <TextView
+        android:id="@+id/warrior_pointsLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/warrior_wisdomLabel"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/warrior_wisdomLabel"
+        android:layout_marginBottom="54dp"
+        android:text="@string/warrior_pointsText" />
+
+    <TextView
+        android:id="@+id/warrior_PointsLeftNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/warrior_classLabel"
+        android:layout_alignStart="@+id/warrior_classLabel"
+        android:layout_alignTop="@+id/warrior_pointsLeft"
+        android:layout_marginLeft="23dp"
+        android:layout_marginStart="23dp"
+        android:text="@string/warrior_pointsNumber" />
+</RelativeLayout>

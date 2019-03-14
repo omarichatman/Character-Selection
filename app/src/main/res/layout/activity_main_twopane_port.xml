@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <fragment
+        android:id="@+id/primary_fragment"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:name="com.example.omari.cis436proj2.MainFragment" />
+    <!-- place holder to load fragments into -->
+    <FrameLayout
+        android:id="@+id/points_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </FrameLayout>
+
+</RelativeLayout>
